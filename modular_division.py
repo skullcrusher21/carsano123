@@ -34,15 +34,7 @@ def modular_division(a: int, b: int, n: int) -> int:
     return x
 
 
-def invert_modulo(a: int, n: int) -> int:
-    """
-    This function find the inverses of a i.e., a^(-1)
 
-    >>> invert_modulo(2, 5)
-    3
-
-    >>> invert_modulo(8,7)
-    1
 
     """
     (b, x) = extended_euclid(a, n)  # Implemented below
